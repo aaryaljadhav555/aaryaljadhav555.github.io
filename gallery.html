@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Solapur Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f5f5;
+}
+
+header{
+background:#ff5722;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+section{
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#ff5722;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:transform 0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Solapur Tourism Gallery</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="places.html">Places</a>
+<a href="culture.html">Culture</a>
+<a href="travel.html">Travel Guide</a>
+<a href="food.html">Food</a>
+<a href="gallery.html">Gallery</a>
+<a href="enquiry.html">Enquiry</a>
+</nav>
+
+</header>
+
+<section>
+
+<h2>Explore Solapur Through Images</h2>
+
+<div class="gallery">
+
+<img src="images/pandharpur1.jpg" alt="Pandharpur Temple">
+<img src="images/pandharpur2.jpg" alt="Pandharpur Temple">
+
+<img src="images/siddeshwar.jpg" alt="Siddheshwar Temple">
+<img src="images/siddeshwar_night.jpg" alt="Siddheshwar Temple Night View">
+
+<img src="images/tuljapur1.jpg" alt="Tuljapur Temple">
+<img src="images/tuljapur2.jpg" alt="Tuljapur Temple">
+<img src="images/tuljapur3.jpg" alt="Tuljapur Temple">
+
+<img src="images/yatra.jpg" alt="Siddheshwar Yatra Festival">
+<img src="images/vari.jpg" alt="Ashadhi Wari Pilgrimage">
+
+<img src="images/misal.jpg" alt="Misal Pav">
+<img src="images/poli.jpg" alt="Puran Poli">
+<img src="images/chutney.jpg" alt="Shenga Chutney">
+
+<img src="images/vada.jpg" alt="Vada Pav">
+<img src="images/bhel.jpg" alt="Bhel Puri">
+<img src="images/pav.jpg" alt="Pav Bhaji">
+
+<img src="images/chadar.jpg" alt="Solapur Chaddar">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Solapur Tourism | Image Gallery</p>
+
+</footer>
+
+</body>
+
+</html>

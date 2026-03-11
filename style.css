@@ -1,66 +1,48 @@
 body{
+font-family:Arial;
 margin:0;
-font-family:Segoe UI,Arial;
-background:#f5f7fa;
-color:#333;
+background:#f4f4f4;
 }
 
 header{
-background:linear-gradient(90deg,#ff6a00,#ff9e3d);
-padding:20px;
-text-align:center;
+background:#ff6a00;
 color:white;
+text-align:center;
+padding:20px;
 }
 
 nav a{
 color:white;
-margin:0 15px;
+margin:10px;
 text-decoration:none;
 font-weight:bold;
 }
 
-nav a:hover{
-text-decoration:underline;
-}
-
 .hero{
-height:420px;
-background:url("images/pandharpur2.jpg") center/cover no-repeat;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+background:url("images/pandharpur2.jpg");
+background-size:cover;
 color:white;
 text-align:center;
-}
-
-.hero h1{
-font-size:48px;
-text-shadow:2px 2px 6px black;
+padding:120px 20px;
 }
 
 section{
+padding:40px;
 max-width:1100px;
 margin:auto;
-padding:40px 20px;
 }
 
 .cards{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
+gap:20px;
 }
 
 .card{
 background:white;
 border-radius:10px;
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
 overflow:hidden;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
 }
 
 .card img{
@@ -75,78 +57,41 @@ color:#ff6a00;
 }
 
 .card p{
-margin:0 15px 20px;
+margin:15px;
 }
 
-.gallery-grid{
+.gallery{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
 
-.gallery-grid img{
+.gallery img{
 width:100%;
 height:180px;
 object-fit:cover;
 border-radius:8px;
-cursor:pointer;
-transition:0.3s;
-}
-
-.gallery-grid img:hover{
-transform:scale(1.05);
-}
-
-.popup{
-display:none;
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.8);
-justify-content:center;
-align-items:center;
-}
-
-.popup img{
-max-width:80%;
-max-height:80%;
-}
-
-.close{
-position:absolute;
-top:20px;
-right:40px;
-color:white;
-font-size:40px;
-cursor:pointer;
 }
 
 .form-box{
-max-width:450px;
+max-width:400px;
 margin:auto;
 background:white;
 padding:30px;
 border-radius:8px;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
 
-.form-box input,
-.form-box textarea{
+input,textarea{
 width:100%;
 padding:10px;
 margin-bottom:15px;
-border:1px solid #ccc;
-border-radius:5px;
 }
 
 button{
 background:#ff6a00;
 color:white;
-border:none;
 padding:10px;
-font-size:16px;
+border:none;
 cursor:pointer;
 }
 
@@ -156,6 +101,5 @@ color:white;
 text-align:center;
 padding:15px;
 }
-
 
 
